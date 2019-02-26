@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_202" class="java.beans.XMLDecoder">
+ <object class="com.kuvata.kmf.presentation.HtmlPresentationNew" id="HtmlPresentationNew0">
+  <void class="com.kuvata.kmf.presentation.HtmlPresentationNew" method="getField">
+   <string>referencedFile</string>
+   <void method="set">
+    <object idref="HtmlPresentationNew0"/>
+    <object class="com.kuvata.kmf.presentation.ReferencedFile">
+     <void property="fileloc">
+      <string>html/753223-html-3003651763.zip</string>
+     </void>
+     <void property="filesize">
+      <long>5423</long>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void class="com.kuvata.kmf.presentation.HtmlPresentationNew" method="getField">
+   <string>opacity</string>
+   <void method="set">
+    <object idref="HtmlPresentationNew0"/>
+    <int>100</int>
+   </void>
+  </void>
+  <void class="com.kuvata.kmf.presentation.HtmlPresentationNew" method="getField">
+   <string>html5Hwaccel</string>
+   <void method="set">
+    <object idref="HtmlPresentationNew0"/>
+    <boolean>true</boolean>
+   </void>
+  </void>
+  <void property="chromeDisableGpu">
+   <boolean>true</boolean>
+  </void>
+  <void property="startPage">
+   <string>index.html</string>
+  </void>
+  <void property="useChrome">
+   <boolean>false</boolean>
+  </void>
+ </object>
+</java>

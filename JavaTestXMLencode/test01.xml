@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_202" class="java.beans.XMLDecoder">
+ <object class="com.kuvata.kmf.presentation.HtmlPresentation" id="HtmlPresentation0">
+  <void class="com.kuvata.kmf.presentation.HtmlPresentation" method="getField">
+   <string>opacity</string>
+   <void method="set">
+    <object idref="HtmlPresentation0"/>
+    <int>100</int>
+   </void>
+  </void>
+  <void class="com.kuvata.kmf.presentation.HtmlPresentation" method="getField">
+   <string>html5Hwaccel</string>
+   <void method="set">
+    <object idref="HtmlPresentation0"/>
+    <boolean>true</boolean>
+   </void>
+  </void>
+  <void property="chromeDisableGpu">
+   <boolean>true</boolean>
+  </void>
+  <void property="startPage">
+   <string>index.html</string>
+  </void>
+  <void property="useChrome">
+   <boolean>false</boolean>
+  </void>
+ </object>
+</java>
